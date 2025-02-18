@@ -1,9 +1,9 @@
 import React from 'react';
 
 const UserCard = ({ name, email, age, bgColor }) => {
-  // Style for the card
+
   const cardStyle = {
-    backgroundColor: bgColor || '#f0f0f0', // Default color if no bgColor prop is passed
+    backgroundColor: bgColor || '#f0f0f0', 
     padding: '20px',
     borderRadius: '10px',
     width: '250px',
